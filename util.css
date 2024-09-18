@@ -1,0 +1,72 @@
+.text-center {
+  text-align: center;
+
+}
+
+.bg-red {
+  background-color: #110d0d;
+
+}
+
+.m-w {
+
+  margin: auto;
+  width: 29vw;
+  padding: 12px 0;
+  border-radius: 12px;
+}
+
+.flex {
+
+  display: flex;
+
+}
+
+.flex-col {
+
+  flex-direction: column;
+
+}
+
+.items-center {
+  align-items: center;
+}
+
+
+@media (max-width:890px) {
+
+  body {
+    margin: 0;
+  }
+
+  .text-center {
+    text-align: center;
+    font-size: 8vw;
+  }
+
+  .m-w {
+    width: 89vw;
+    padding: 12px 15px;
+  }
+
+  input {
+    width: 52vw;
+    font-size: 18px;
+  }
+
+  .row button:first-child {
+    padding: 12px;
+    border-radius: 50%;
+  }
+
+  button {
+
+    padding: 12px;
+    border-radius: 50%;
+  }
+
+
+
+
+
+}

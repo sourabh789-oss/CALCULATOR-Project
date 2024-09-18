@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+ body{
+  margin: 0;
+ }
+.text-center {
+  text-align: center;
+  font-size: 2.7vw;
+}
+
+button {
+  width: 70px;
+  margin: 0 3px;
+  padding: 20px;
+  background-color: #776e6e;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 53px;
+  transition: all 1s ease-out;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+}
+
+button:active {
+
+
+  font-size: 23px;
+  color: grey;
+  /* click krne par property active hojayegi same as hover ki tarah */
+
+}
+
+.row :last-child {
+
+  background-color: #f4bc5d;
+  color: white;
+}
+
+.row button:first-child {
+
+  padding: 20px;
+}
+
+.container div:nth-child(2) button {
+  background-color: #d3cfcf;
+  color: black;
+
+}
+
+/* .row1{ 
+  /* child property kam nahi kr rahi ha first row mein  isliye new .row1 class bnayi ha*/
+/* background-color: #d3cfcf;
+color: black;  
+} */
+
+
+
+
+.row {
+
+  margin: 0.5vw 0;
+}
+
+.container :first-child {
+  padding: 13px 31px
+}
+
+
+
+
+input {
+  outline: none;
+  font-size: 1.4vw;
+  margin: 0;
+  padding: 10px 31px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+}
